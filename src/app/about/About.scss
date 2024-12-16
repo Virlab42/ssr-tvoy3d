@@ -1,0 +1,122 @@
+// About.scss
+
+.about {
+    width: 100%;
+
+    .hero-block_image {
+        background: url('./about.png');
+        background-size: cover;
+        background-position: 100%;
+        .dark-fon{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100%;
+            background: #000000b2;
+        }
+    }
+
+    .about-info {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 100px;
+        margin-left: 13%;
+        margin-right: 13%;
+        margin-bottom: 100px;
+
+        .about-text {
+            width: 100%;
+            text-align: justify;
+            line-height: 1.6;
+            font-size: 1.1rem;
+            color: #555;
+            padding: 0 20px;
+            h2{
+                text-align: left;
+            }
+            p{
+                margin: 0;
+            }
+        }
+
+        .about-img {
+            width: 100%;
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    .about-info-second {
+        margin-left: 13%;
+        margin-right: 13%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 100px;
+
+        .about-text-second {
+            width: 100%;
+            text-align: justify;
+            line-height: 1.6;
+            font-size: 1.1rem;
+            color: #555;
+            padding: 0 20px;
+            p{
+                margin: 0;
+            }
+            h2{
+                text-align: left;
+            }
+        }
+
+        .about-img-second {
+            width: 100%;
+            height: 300px;
+            background-size: cover;
+            background-position: center;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    }
+
+    @media (max-width: 1200px) {
+        .hero-block_image {
+        }
+
+        .about-info, .about-info-second {
+            flex-direction: column;
+            align-items: center;
+            margin: 50px 3%;
+            .about-text, .about-text-second {
+                padding: 0;
+                h2{
+                    font-size: 22px;
+                }
+            }
+
+            .about-img, .about-img-second {
+                margin-top: 30px;
+            }
+        }
+
+        .about-info-second {
+            display: flex;
+            flex-direction: column-reverse; // Меняем местами текст и изображение
+            align-items: center;
+
+            .about-img-second {
+                order: 1;
+            }
+
+            .about-text-second {
+                order: 2;
+            }
+        }
+    }
+}

@@ -1,0 +1,89 @@
+@import "/public/const.scss";
+
+.question {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 150px 15%;
+    .spinner {
+        border: 4px solid rgba(0, 0, 0, 0.1);
+        border-radius: 50%;
+        border-top: 4px solid #007bff;
+        width: 24px;
+        height: 24px;
+        animation: spin 1s linear infinite;
+        margin-left: 10px;
+        display: inline-block;
+    }
+    
+    @keyframes spin {
+        0% { transform: rotate(0deg); }
+        100% { transform: rotate(360deg); }
+    }
+    
+
+    h3 {
+        margin-top: 100px;
+        text-align: center;
+    }
+    h5{
+        font-size: 18px;
+        text-align: center;
+        a{
+            color: $red;
+            text-decoration: underline;
+            transition: .3s;
+        }
+        a:hover{
+            color: $vinous;
+        }
+    }
+
+    form {
+        margin: 50px 0;
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        gap: 60px;  
+        .inline-fields {
+            display: flex;
+            gap: 10px;
+            width: 100%;
+            input[type="text"] {
+                flex: 1;
+                background-color: #f7f7f7;
+                border: none;
+                border-radius: 6px;
+                padding: 10px 10px;
+                outline: none;
+            }
+        }
+    
+     
+    
+        textarea {
+            min-height: 150px;
+            outline: none;
+        }
+    
+        input[type="file"] {
+            padding: 10px 10px;
+        }
+       }
+}
+@media (max-width: 1200px) {
+    .question{
+        margin: 100px 5%;
+    }
+}
+@media (max-width: 992px) {
+    .question{
+        form {
+            flex-direction: column;
+            align-items: center;
+            .inline-fields{
+                flex-direction: column;
+            }
+        }
+    }
+}

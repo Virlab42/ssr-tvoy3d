@@ -349,7 +349,7 @@ function Footer(){
                   <ul>
                   <li><p>Почта:&nbsp;&nbsp;<a href='mailto:tvoy-3d@yandex.ru' className="nav-link">tvoy-3d@yandex.ru</a></p></li>
 									<li><p>Телефон:&nbsp;&nbsp;<a href='tel:+79936307048' className="nav-link">+7 993-630-70-48</a></p></li>
-                    <li><p>Адрес: Москва, Волковское шоссе с34</p></li>
+                    <li><p>Адрес: Куровское, ул. Советская 105</p></li>
                     <li><p>ООО «ООО «ТВОЙ3Д»»</p></li>
                     <li><p>ОГРН 1245000031286</p></li>
                     <li><p>ИНН 5034068084</p></li>
@@ -406,7 +406,7 @@ function Footer(){
                   <ul>
                     <li><p>Почта:&nbsp;&nbsp;<a href='mailto:tvoy-3d@yandex.ru' className="nav-link">tvoy-3d@yandex.ru</a></p></li>
 										<li><p>Телефон:&nbsp;&nbsp;<a href='tel:+79936307048' className="nav-link">+7 993-630-70-48</a></p></li>
-                    <li><p>Адрес: Москва, Волковское шоссе с34</p></li>
+                    <li><p>Адрес: Куровское, ул. Советская 105</p></li>
                     <li><p>ООО «ООО «ТВОЙ3Д»»</p></li>
                     <li><p>ОГРН 1245000031286</p></li>
                     <li><p>ИНН 5034068084</p></li>

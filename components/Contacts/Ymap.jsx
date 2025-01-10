@@ -6,8 +6,8 @@ export default function Ymap(){
         <>
            <YMaps>
                     <div className='ymaps'>
-                        <Map className='map' defaultState={{ center: [55.918247, 37.679808], zoom: 13.5 }}>
-                        <Placemark geometry={[55.918247, 37.679808]}  options={{preset: 'islands#darkBlueDotIcon'}} />
+                        <Map className='map' defaultState={{ center: [55.580844, 38.919833], zoom: 13.5 }}>
+                        <Placemark geometry={[55.580844, 38.919833]}  options={{preset: 'islands#darkBlueDotIcon'}} />
                         </Map>
                     </div>  
                  </YMaps>

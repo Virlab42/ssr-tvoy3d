@@ -123,6 +123,9 @@ export default function BlogComponent() {
               "Авиация",
               "Аддитивная инженерия",
               "Советы",
+			  "Проектирование",
+			  "Программы",
+			  "Моделирование",
             ].map((tag) => (
               <button
                 key={tag}

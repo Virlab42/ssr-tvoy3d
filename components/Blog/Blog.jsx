@@ -126,6 +126,7 @@ export default function BlogComponent() {
 			  "Проектирование",
 			  "Программы",
 			  "Моделирование",
+			  "Платформы для 3D-моделей",
             ].map((tag) => (
               <button
                 key={tag}
